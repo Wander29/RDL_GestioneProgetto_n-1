@@ -1,0 +1,315 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    <!-- link -->
+        <link rel="stylesheet" media="screen" href="CSS/style.css" type="text/css" />
+        <link rel="stylesheet" media="screen" href="bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css" />
+        <script src="Jquery/jquery-3.2.0.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <script src="JavaScript/js.js"></script>
+        
+        <script type="text/javascript">
+		if (typeof jQuery == 'undefined') {
+		    document.write(unescape("%3Cscript src='js/lib/jquery.1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+		}
+		</script>
+		
+		<script src="jquery-readingtime-master/jquery.js"></script>
+		
+		<script>
+		
+			
+		
+		</script>
+    <!-- head -->    
+     <title>|Home|</title>
+    </head>
+    
+    
+    
+    <body>
+    <div id="loader" style="background-color: #330033; height: 100%;">
+        <div style="height: 100px;"></div>
+        <div style="height: 100px; margin:10px; text-align: center;"><strong style="color:red; font-size:23px;">Please Wait ...  </strong><!--<img style="border-radius: 10px;" src="IMM/count.gif">--></div>
+        <div style="text-align: center;"><img style="border-radius: 10px; box-shadow: 10px 10px 5px #220022;" src="IMM/boat.gif"></div>
+        
+    </div>    
+        
+    <div id="main-body" style="display: none">
+        <div class="header">
+            <div class="header1">
+                <div class="row">
+                    <div class="col-xs-2 row-header"><a href="Index.html"><img class="imm-home" src="IMM/home.png"></a></div>
+                    <div class="col-xs-8 title-main row-header" ><red style="color: red">RDL_1</red> Informatica</div>
+                    <div class="col-xs-2 row-header"> <p id="headeeer"></p></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid background-main">
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10 well-main" id="vody">
+                    <div class="segnalibri">
+                        <ol class="breadcrumb">
+                          <li class="active">Home</li>
+                          <!--<li><a href="#">Library</a></li>
+                          <li class="active">Data</li>-->
+                        </ol>
+                    </div>
+                    <div class="main-padding">
+                        <div class="row">
+                            <div class="col-xs-2 menu-bar">
+                                <div style="height: 30px"></div>
+                                <div id="menu2">
+                                    <div class="menu">Menu'<br></div>  <br>                              
+                                        <table class="table" >
+                                            <!--<tr><td>        
+                                                                                        <div class="row" data-toggle="collapse" data-parent="#accordion" id="pr" href="#collapse2">
+                                                                                            <div class="col-xs-9">
+                                                                                              <h4 class="panel-title">
+                                                                                                  DATA-BASE
+                                                                                              </h4>
+                                                                                            </div>
+                                                                                            <div class="col-xs-3">
+                                                                                                <img src="IMM/freccia.png" id="prr1" class="imm-bar">
+                                                                                                <img src="IMM/freccia2.png" id="pr1" class="imm-bar-h">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    <div id="collapse2" class="panel-collapse collapse in tab-panel">
+
+                                                                                        - <a href="Data_Base.html"> DATA-BASE </a>
+
+                                                                                    </div>
+                                                                              </td></tr>-->
+                                            <tr><td>        
+                                                                                        <div class="row" data-toggle="collapse" data-parent="#accordion" id="prii" href="#collapse3">
+                                                                                            <div class="col-xs-9">
+                                                                                              <h4 class="panel-title">
+                                                                                                  Set di Dadi
+                                                                                              </h4>
+                                                                                            </div>
+                                                                                            <div class="col-xs-3">
+                                                                                                <img src="IMM/freccia.png" id="prr3" class="imm-bar">
+                                                                                                <img src="IMM/freccia2.png" id="pr3" class="imm-bar-h">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    <div id="collapse3" class="panel-collapse collapse in tab-panel">
+
+                                                                                        - <a href="DBMS.html"> Svolgimento e spiegazione dell'esercizio </a>
+
+                                                                                    </div>
+                                                                              </td></tr>
+                                            <tr><td>        
+                                                                                        <div class="row" data-toggle="collapse" data-parent="#accordion" id="priii" href="#collapse4">
+                                                                                            <div class="col-xs-9">
+                                                                                              <h4 class="panel-title">
+                                                                                                Codificatore di Testi
+                                                                                              </h4>
+                                                                                            </div>
+                                                                                            <div class="col-xs-3">
+                                                                                                <img src="IMM/freccia.png" id="prr4" class="imm-bar">
+                                                                                                <img src="IMM/freccia2.png" id="pr4" class="imm-bar-h">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    <div id="collapse4" class="panel-collapse collapse in tab-panel">
+
+                                                                                        - <a href="Codificatore.html"> Svolgimento e spiegazione dell'esercizio  </a>
+
+                                                                                    </div>
+                                                                              </td></tr>
+                                            <tr><td>        
+                                                                              </td></tr>
+
+
+
+                                        </table>
+                                    </div>
+                                </div>
+                            
+                            
+                            <div class="col-xs-8 central-panel">
+                                
+                                <div class="fixed3">
+                                    <div class="progress progress-striped active">
+                                      <div id="scrollrock" class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                      </div> 
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="title-body"><h1><strong>Android</strong> Studio</h1></div>
+                                <div class="main-text well">
+                                <article>
+                                    <div class="row">
+
+                                        <div class="col-xs-1 glyphicon glyphicon-time align-r"  title="tempo di lettura"></div>
+                                        <div class="col-xs-11"><p><small><span class="eta"></span> (<span class="words"></span> words)</small></p></div>
+                                    </div> 
+                                    <div id="ancor"></div>
+                                    <h3>Cosa è</h3><br>
+                                    Android Studio è un ambiente di sviluppo integrato (IDE) per lo sviluppo per la piattaforma Android.<br>
+                                    È stato annunciato il 16 maggio 2013 in occasione della conferenza Google I/O. Android Studio è disponibile gratuitamente sotto licenza Apache 2.0.<br>
+                                    Android Studio uscì in anteprima con la versione 0.1 nel maggio del 2013, entrò poi in fase beta a partire dalla versione 0.8 rilasciata nel giugno del 2014.<br>
+                                    La prima build stabile fu rilasciata nel dicembre del 2014, versione 1.0.<br>
+                                    Basato sul software di <a id="toot2" class="" data-toggle="tooltip" data-placement="top" title="L'azienda offre una vasta gamma di ambienti di sviluppo integrati (IDE) per i linguaggi di programmazione Java, Ruby, Python, PHP, SQL, Objective-C, C++ e JavaScript.">JetBrains</a> IntelliJ IDEA, Android Studio è stato progettato specificamente per lo sviluppo di applicazioni Android.<br> 
+                                    È disponibile il download su Windows, Mac OS X e Linux, e sostituisce gli Android Development Tools (ADT) di Eclipse, diventando l'IDE primario di Google per lo sviluppo nativo di applicazioni Android.<br>
+                                    Al suo interno, include però <a id="toot" class="" data-toggle="tooltip" data-placement="top" title="Gradle è stato progettato per sviluppi multi-progetto che possono crescere fino a divenire abbastanza grandi e supporta sviluppi incrementali determinando in modo intelligente quali parti del build tree sono aggiornate ('up-to-date'), in modo che tutti i processi che dipendono solo da quelle parti non avranno bisogno di essere ri-eseguiti; così facendo, il software riduce significativamente il tempo di costruzione del progetto, in quanto, durante il nuovo tentativo di costruzione, verranno eseguite solo le attività il cui codice è effettivamente stato alterato a partire dall'ultima costruzione completata.">Gradle</a>, un ottimo strumento per la build automation, molto flessibile ed erede di tutte le principali caratteristiche di predecessori come Apache Ant e Maven.<br><br>
+                                    <h3>La prima applicazione</h3><br>
+                                    All’avvio, l’IDE mostra una finestra di benvenuto, sulla sinistra della quale troviamo un elenco di progetti aperti di recente, mentre sulla destra è presente un menu che permette l’avvio del lavoro in varie modalità.<br> Selezioniamo la voce Start a new Android Studio project.<br>
+                                    La creazione guidata che viene avviata si articola in quattro schermate, ognuna dedicata ad un aspetto:<br>
+                                    <ul>
+                                        <li>la prima schermata consente di specificare nome dell’app, Company Domain (di default costituirà la prima parte del package Java che creeremo), nome completo del package Java e collocazione del progetto nel file system. Su quest’ultimo aspetto, è bene sottolineare Android Studio non fa uso di un unico workspace, come invece avviene su Eclipse</li>
+                                        <li>la seconda schermata permette di scegliere il fattore di forma dell’app: possiamo scegliere tra smartphone/tablet, TV, dispositivi indossabili (Wear) o Google Glass. È evidente quanto questa IDE sia pensata specificamente per il mondo Android nella sua interezza</li>
+                                        <li>la terza schermata offre la scelta tra vari <strong>template di applicazioni</strong>. Nel caso, ad esempio, di app per smartphone e tablet, saranno proposte varie alternative: un’app vuota, con fragments, con Google Maps intergrato o con i Google Play Services già a disposizione, ed altro ancora</li>
+                                        <li>tramite l’ultima schermata possiamo configurare la prima Activity, definendo il nome della classe e del file di layout</li>
+                                    </ul><br>
+                                    <div id="ancor2"></div>
+                                    <h3>SDK Manager ed emulatori su Android Studio</h3><br>
+                                    Su Android Studio esiste un sottomenu raggiungibile da Tools -> Android, in cui è possibile rintracciare i comandi per attivare Android SDK Manager e Android Virtual Device Manager.<br>
+                                    Il primo, è il pannello per integrare il proprio SDK con ulteriori funzionalità ed aggiornamenti.<br>
+                                    Il secondo permette di creare uno o più emulatori, qualora non si vogliano o non si possano eseguire i propri progetti direttamente su dispositivo reale.<br>
+                                    Il pannello che lo costituisce presenta, in basso, il pulsante Create Virtual Device…, selezionando il quale verrà avviata la creazione di un emulatore,<br> del quale si potranno scegliere modello e caratteristiche. Terminata la creazione, il nuovo emulatore apparirà nella finestra Your Virtual Devices e da lì potrà essere avviato.<br><br>
+                                    <div><img style="width: 70%"class="imm-standard" src="IMM/index/sdk.PNG"></div><br><br>
+                                    <div><img style="width: 35%"class="imm-standard" src="IMM/index/emu.PNG"></div><br><br>
+                                    <div id="ancor3"></div>
+                                    <h3>Design di layout</h3><br>
+                                    Un aspetto significativo di Android Studio consiste nell’anteprima di layout praticamente istantanea.<br>
+                                    Se si apre un file contenente la stuttura del layout – reperibile, ad esempio, nella cartella res/layout – si vede che il suo contenuto può essere mostrato in modalità Design (visuale, incluso nel display di un dispositivo) oppure Text, che mostra il tipico formato XML.<br>
+                                    Il pannello Design può essere utile per visualizzare rapidamente le modifiche apportate al sorgente XML, oppure per disegnare in modalità visuale l’interfaccia, trascinando, direttamente sul display, controlli utente dalla Palette.<br>
+                                    Inoltre, il pannello Design presenta alcuni menu a tendina che permettono di modificare le condizioni dell’anteprima in termini di modello, orientamento e versione di Android disponibile.<br><br>
+                                    <div><img style="width: 70%"class="imm-standard" src="IMM/index/layout.png"></div><br><br>
+                                    <h3>Gli intent</h3><br>
+                                    Sono una feature che discosta il linguaggio java utilizzato da android studio dal il java classico e come linguagio assestante. <br>
+                                    Le principali funzioni delgli intent sono<br>
+                                    <ul>
+                                        <li>avviare un’Activity</li>
+                                        <li>avviare un Service</li>
+                                        <li>inviare un messaggio in broadcast che può essere ricevuto da ogni applicazione</li>
+                                    </ul><br>
+                                    <h3>Gli Extras</h3><br>
+                                    Un altro aspetto molto utile degli Intent è che essi, nel recapitare questo messaggio, hanno a disposizione una specie di “bagagliaio”, in cui custodiscono dati che possono essere letti dal destinatario.<br>
+                                    Questi valori condivisi mediante Intent vengono generalmente chiamati Extras e possono essere di varie tipologie, sia appartenenti a classi più comuni che ad altre purchè serializzabili.<br>
+                                    La gestione degli Extras negli Intent funziona in maniera simile ad una struttura dati a mappa: con dei metodi put viene inserito un valore etichettato con una chiave e con i corrispondenti metodi get viene prelevato il valore, richiedendolo mediante la chiave di riconoscimento.<br><br>
+
+
+                                </article>   
+                                    
+
+                                </div>
+                               
+                                
+                                
+                                <div class="row">
+                                    
+                                </div>
+                                
+                                
+                            </div>  
+                            
+                            
+                            
+                            <div class="col-xs-2">
+                                <div style="height: 30px"></div>
+                                <div id="menu"style="text-align: center">
+                                    <!-- Button trigger modal -->
+                                    <div style="text-align: center; padding: 10px;"><strong>Premimi:</strong><br></div>
+                                    <button id="btn_pr" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                      Obiettivi
+                                    </button>
+                                    <!-- Button trigger modal -->
+                                    <div style="text-align: center; padding: 10px;"><strong>Premimi:</strong><br></div>
+                                    <button id="btn_pr" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
+                                      Strumenti 
+                                    </button>
+                                    
+                                    <div>
+                                        <table>
+                                            <tr id="anc1"><td>ciao1</td></tr>
+                                            <tr id="anc2"><td>ciao2</td></tr>
+                                            <tr id="anc3"><td>ciao3</td></tr>
+                                        </table>
+                                    </div>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div style="z-index: 555555" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h4 class="modal-title" id="myModalLabel">Obiettivi</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                                <div>
+                                                    <ul>
+                                                        <li>Sviluppare Data-Base dell'esercizio assegnatoci</li>
+                                                        <li>Esplicare teoricamente la definizione di Archivio</li>
+                                                    </ul> 
+                                                </div>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                
+                                
+                                <div style="text-align: center">
+                                    
+                                    </div>
+                                    <!-- Modal -->
+                                    <div style="z-index: 555555" class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h4 class="modal-title" id="myModalLabel">Strumetni utilizzati</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                                <div>
+                                                    <strong>Software</strong>
+                                                    <ul>
+                                                        <li><strong>Brackets</strong> (Editor di testi) utilizzato per poter sviluppare i l'html ei vari linguaggi di web design per la relazione</li>
+                                                        <li><strong>EasyPHP</strong> Per la realizzazione dell'esercizio</li>
+                                                    </ul> 
+                                                    <strong>hardware:</strong>
+                                                    <ul>
+                                                        <li>Un computer per poter sviluppare la relazione e l'esercizio</li>
+                                                    </ul> 
+                                                </div>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                
+                                
+                            </div>  
+                        </div>
+                        
+                    </div>
+                    <div class="footer">
+                        <div class="row">
+                            <div class="col-xs-3">5°<strong>AIA</strong></div>
+                            <div class="col-xs-6">Terraformer.144@gmail.com</div>
+                            <div class="col-xs-3">Relazione sviluppata da <strong>Moroni</strong> Luca</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-xs-1"></div>
+            </div>
+        </div>
+         <div id="back_to_top"><img class="set-totop"src="IMM/ftotpo.png"></div>
+        
+    </div>
+    </body>
+ 
+    <div id="anchor"></div>
+
+</html>
+
+

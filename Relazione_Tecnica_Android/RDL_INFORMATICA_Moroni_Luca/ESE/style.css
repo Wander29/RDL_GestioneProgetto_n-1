@@ -1,0 +1,28 @@
+libretto{
+    border-color: black;
+    border-style: solid;
+    margin: 100px;
+    display: block;
+}
+
+cognome{
+    /**/
+}
+nome{
+}
+matricola{
+    display: block;
+    border-top: black solid;
+    border-bottom: black solid;
+}
+facolta{
+    display: block;
+    border-bottom: black solid;
+}
+anno_c{
+    display: block;
+    border-bottom: black solid;
+}
+esami{
+    display: block;
+}
