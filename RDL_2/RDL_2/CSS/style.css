@@ -1,0 +1,230 @@
+/*struttura*/
+::-moz-selection { /* Code for Firefox */
+    background:#330033;
+    color: red;
+}
+::selection {
+    background:#330033;
+    color: red;
+}
+
+.align-r{
+    text-align: right;
+}
+
+.well-main{
+    border-radius: 10px;
+    border-color: aqua;
+    border-width: thin;
+    border-style: solid;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 85px;
+}
+.header{
+    position: fixed;
+    z-index: 222;
+    width: 100%;
+}
+.header1{
+    
+    height: 80px;
+    
+    background-color:#330033;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: thin;
+    box-shadow: 0px 1px 10px #fefefe;
+    
+}
+
+.header2{
+    
+    height: 40px;
+    width: 100%;
+    background-color:whitesmoke;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: thin;
+    z-index: 222;
+    display: none;
+}
+
+.footer{
+    background-color: #330033;
+    margin: 15px;
+    border-radius: 10px;
+    height: 60px;
+    text-align: left;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.row-header{
+    height: 80px;
+}
+
+.segnalibri{
+    padding: 10px;
+}
+
+.main-padding{
+    padding:10px;
+}
+
+
+.menu{
+    text-align: center;
+}
+
+.fixed1{
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    right: 0px;
+    top:85;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-color: #330033;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+        padding: 10px;
+
+}
+
+.fixed2{
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    left: 0px;
+    top:85;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-color: #330033;
+    border-style: solid;
+    border-bottom-right-radius: 10px;
+        padding: 10px;
+
+}
+
+.fixed3{
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    top: 85px;
+    left: 40%;
+    right: 40%;
+    background-color: white;
+    border-radius: 10px;
+        padding: 10px;
+    z-index: 3333;
+     opacity:0.7;
+
+}
+
+.central-panel{
+    border-left-color: red;
+    border-left-style: solid;
+    border-right-color: red;
+    border-right-style: solid;
+}
+.tab-panel{
+    padding: 10px;
+}
+.border-radius-10{
+    border-radius: 10px;
+}
+
+.button-obj{
+    background-color: #330033;
+    border-radius: 10px;
+    height: 60px;
+    padding 5px;
+    color: white;
+}
+
+/*background*/
+.background-main{
+    background-image: url(bg.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+}
+/*scritte*/
+.title-main{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 45px;
+
+}
+
+.title-body{
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+    .title-main{
+            color: antiquewhite;
+            font-size: 25px;
+        }
+}
+
+.main-text{
+    padding: 10px;
+}
+    
+h3{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/*immagini*/
+.imm-home{
+    text-align: center;
+    height: 90%;
+    padding-left: 25%;
+    padding-top: 5px;
+    
+}
+.imm-home:hover{
+    height: 100%;
+    padding-top: 5px;
+}
+
+.imm-bar{
+    height: 15px;
+}
+.imm-bar-h{
+    height: 15px;
+    display: none;
+}
+.imm-standard {
+    box-shadow: 10px 10px 5px #dedede;
+}
+
+.drive{
+    height: 100px;
+}
+.drive:hover{
+    height: 110px;
+}
+
+/*varie*/
+.hide{
+    display: none;
+}
+
+#back_to_top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.set-totop{
+    width: 60px;    
+}
+
+.panel-title{
+    padding: 1px;
+}
